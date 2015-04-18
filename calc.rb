@@ -25,7 +25,7 @@ elsif operator == 'd'
 elsif operator == 's'
   result = num1.to_i - num2.to_i
 elsif operator == 'a'
-  result = num1.to_i  + num1.to_i
+  result = num1.to_i  + num2.to_i
 else
   puts "You did not enter a valid operator"
 end
