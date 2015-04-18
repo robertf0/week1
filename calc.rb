@@ -3,7 +3,7 @@ puts "***---Welcome to the Ruby Calculator---***"
 
 # Method for text decoration
 def say(output)
-  puts "===> " + output + " <==="
+  puts "===> #{output} <==="
 end
 
 say "Use (m) to multiply, (d) to divide, (s) to subtract or (a) to add"
@@ -30,5 +30,5 @@ else
   puts "You did not enter a valid operator"
 end
 
-say "The result is: " + result.to_s
+say "The result is: #{result}"
 
