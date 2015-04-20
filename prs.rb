@@ -14,8 +14,8 @@ name = gets.chomp.capitalize
 loop do 
 
   begin
-  say "Please choose (p) for Paper, (r) for Rock or (s) for Scissors"
-  user_pick = gets.chomp.downcase
+    say "Please choose (p) for Paper, (r) for Rock or (s) for Scissors"
+    user_pick = gets.chomp.downcase
   end until CHOICE.keys.include?(user_pick)
 
   say "#{name} chose #{CHOICE[user_pick]}"
